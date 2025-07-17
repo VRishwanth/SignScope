@@ -1,0 +1,12 @@
+# Dependencies
+/frontend/node_modules/
+/backend/venv/
+
+# Build output
+/frontend/build/
+
+# Python cache
+__pycache__/
+
+# Misc
+.DS_Store

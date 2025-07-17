@@ -10,8 +10,6 @@ Modern UI: A clean, responsive, and user-friendly interface built with React and
 
 Dark/Light Mode: A theme toggle for user comfort, with the preference saved in their browser.
 
-Image Previews: See a preview of your uploaded image before sending it for analysis.
-
 Full-Stack Architecture: Demonstrates the integration of a Python/Flask backend with a modern JavaScript frontend.
 
 🛠️ Tech Stack
@@ -48,7 +46,8 @@ pip and venv
 Instructions
 Clone the Repository
 
-git clone https://github.com/your-username/SignScope.git
+git clone [https://github.com/your-username/SignScope.git](https://github.com/VRishwanth/SignScope)
+
 cd SignScope
 
 Setup the Backend

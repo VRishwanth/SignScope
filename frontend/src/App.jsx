@@ -60,12 +60,12 @@ export default function App() {
     const formData = new FormData();
     formData.append('file', selectedFile);
 
-    try {
+   try {
       const response = await fetch('http://127.0.0.1:5000/predict', {
         method: 'POST',
         body: formData,
       });
-
+      
       if (!response.ok) {
         const errData = await response.json();
         throw new Error(errData.error || 'Server error occurred.');

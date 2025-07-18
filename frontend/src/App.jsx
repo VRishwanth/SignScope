@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { UploadCloud, Loader, AlertCircle, Sun, Moon, Image as ImageIcon, XCircle } from 'lucide-react';
 
-// --- Theme Toggle Component ---
 const ThemeToggle = ({ theme, toggleTheme }) => (
   <button
     onClick={toggleTheme}
@@ -12,7 +11,6 @@ const ThemeToggle = ({ theme, toggleTheme }) => (
   </button>
 );
 
-// --- Main App Component ---
 export default function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [preview, setPreview] = useState(null);

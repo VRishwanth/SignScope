@@ -3,6 +3,12 @@ A modern, full-stack web application that uses a deep learning model to identify
 
 Live Demo: signscope.vercel.app (Note: The backend is currently being deployed, so predictions may not be functional on the live site yet.)
 
+
+
+
+https://github.com/user-attachments/assets/e44097d0-b9b8-498f-8d1b-8763c0f0f8d6
+
+
 ✨ Features
 Real-Time Predictions: Upload an image of a traffic sign and receive an instant classification from the Keras model.
 

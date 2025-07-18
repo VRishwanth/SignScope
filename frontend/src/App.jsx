@@ -59,9 +59,8 @@ export default function App() {
 
     const formData = new FormData();
     formData.append('file', selectedFile);
-
-   try {
-      const response = await fetch('http://127.0.0.1:5000/predict', {
+try {
+      const response = await fetch('https://signscope-backend.onrender.com/predict', {
         method: 'POST',
         body: formData,
       });
